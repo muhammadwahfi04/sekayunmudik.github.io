@@ -14,6 +14,40 @@
   <title>Desa Sekayun Mudik</title>
 
   <style>
+
+          /* Gaya tambahan untuk membuat modal responsif */
+  @media (max-width: 768px) {
+      .modal-dialog {
+          max-width: 90%;
+      }
+  
+      .modal-content {
+          padding: 15px;
+      }
+  }
+  
+  /* Menyesuaikan lebar modal di layar besar */
+  @media (min-width: 992px) {
+      .modal-dialog {
+          max-width: 750px; /* Sesuaikan lebar modal sesuai kebutuhan */
+      }
+  }
+  
+  /* Tambahkan gaya CSS berikut */
+  .map-container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%; /* 16:9 aspect ratio (untuk perbandingan lebar dan tinggi video) */
+  }
+  
+  .responsive-map {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
     /* Background berwarna biru ketika cursor menyentuh */
     .navbar-nav .nav-link:hover {
       background-color: #f4a261; /* Warna biru sesuai warna Bootstrap */
@@ -588,9 +622,12 @@
   <div class="container">
     <h2 class="display-4 mb-4" id="peta_desa">PETA DESA</h2>
     <div class="mb-5">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15928.034915692893!2d102.3337297417756!3d-3.5854699922182727!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e314c07a90772d7%3A0xd65e8ae8d76e18d6!2sSekayun%20Mudik%2C%20Kec.%20Bang%20H.%2C%20Kabupaten%20Bengkulu%20Tengah%2C%20Bengkulu%2C%20Indonesia!5e0!3m2!1sid!2ssg!4v1690335360051!5m2!1sid!2ssg" width="1000" height="550" class="mb-5" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <div class="map-container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15928.034915692893!2d102.3337297417756!3d-3.5854699922182727!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e314c07a90772d7%3A0xd65e8ae8d76e18d6!2sSekayun%20Mudik%2C%20Kec.%20Bang%20H.%2C%20Kabupaten%20Bengkulu%20Tengah%2C%20Bengkulu%2C%20Indonesia!5e0!3m2!1sid!2ssg!4v1690335360051!5m2!1sid!2ssg"
+          frameborder="0" class="responsive-map" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
     </div>
-    </div>
+  </div>
 </section>
 
    <!-- Footer -->
