@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+
+   <!-- Montserrat Font -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap">
+  <link rel="icon" href="gambar/logo_benteng.png">
+  <title>Desa Sekayun Mudik</title>
+
+  <style>
+    /* Background berwarna biru ketika cursor menyentuh */
+    .navbar-nav .nav-link:hover {
+      background-color: #f4a261; /* Warna biru sesuai warna Bootstrap */
+  
+    }
+
+    body {
+      background-color: #f8f9fa; /* Warna latar belakang */
+    }
+
+    /* Warna teks di header */
+    .navbar-brand,
+    .nav-link {
+      color: white;
+    }
+
+
+     /* Warna teks di carousel */
+     .carousel-caption {
+      color: #fff; /* Warna teks putih */
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Bayangan teks */
+      background-color: rgba(0, 0, 0, 0.6); /* Warna background gelap */
+      padding: 10px; /* Padding untuk caption */
+      position: absolute; /* Penempatan absolut */
+      bottom: 0; /* Penempatan di bagian bawah */
+      left: 50%; /* Penempatan horizontal di tengah */
+      transform: translateX(-50%); /* Menggeser horizontal ke kiri sebanyak 50% */
+      
+    }
+
+      /* ... (previous CSS code) ... */
+
+  /* Font size for large screens and above */
+  .carousel-title {
+    font-size: 2.5rem;
+  }
+
+  .carousel-description {
+    font-size: 1.5rem;
+  }
+
+  /* Font size for medium screens */
+  @media (max-width: 992px) {
+    .carousel-title {
+      font-size: 2rem;
+    }
+
+    .carousel-description {
+      font-size: 1.25rem;
+    }
+  }
+
+  /* Font size for small screens */
+  @media (max-width: 768px) {
+    .carousel-title {
+      font-size: 4vw;
+    }
+
+    .carousel-description {
+      font-size: 3vw;
+    }
+  }
+
+     h2.display-4 {
+      color: #2a9d8f;
+      font-weight: bold;
+      font-family: 'Montserrat', sans-serif; /* Set the font to Montserrat */
+     }
+
+     #a {
+    background-color: #2a9d8f;
+    color: white;
+     }
+
+     #struktur_bpd {
+    color: #264653;
+     }
+
+     #POTENSI {
+    color: #e76f51;
+    font-family: 'Montserrat', sans-serif; /* Set the font to Montserrat */
+    font-weight: bold;
+     }
+
+     #aaa {
+    background-color: #e76f51;
+    color: white;
+     }
+
+  </style>
+
+</head>
+<body>
+  <!-- Top Bar -->
+  <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
+    <div class="container">
+
+      <a class="navbar-brand" href="#">
+        <img src="gambar/logo_benteng.png" width="30" height="30" class="d-inline-block align-top" alt="">
+        Desa Sekayun Mudik
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Profil Desa
+            </a>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+              <a class="dropdown-item" href="#sejarah_desa">Sejarah Desa</a>
+              <a class="dropdown-item" href="#peta_desa">Peta Desa</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Pemerintahan Desa
+            </a>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+              <a class="dropdown-item" href="#struktur_desa">Struktur Desa</a>
+              <a class="dropdown-item" href="#struktur_bpd">Struktur BPD</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#potensi_desa">Potensi Desa</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Tab Content - Potensi Desa -->
+  <div class="tab-content">
+    <div class="tab-pane fade" id="potensi-desa" role="tabpanel">
+      <div class="container">
+        <h2>Potensi Desa</h2>
+        <p>Isi konten potensi desa di sini.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Carousel -->
+  <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" data-interval="2000">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="gambar/1.jpg" class="d-block w-100" alt="Slide 1">
+        <div class="carousel-caption">
+          <h3>Kantor Desa Sekayun Mudik</h3>
+          <p>Kantor Desa Sekayun Mudik</p>
+        </div>
+      </div>
+      <!-- <div class="carousel-item">
+        <img src="gambar/2.jpg" class="d-block w-100" alt="Slide 2">
+        <div class="carousel-caption">
+          <h3>Puskesmas Sekayun Mudik</h3>
+          <p>Puskesmas Sekayun Mudik</p>
+        </div>
+      </div> -->
+      <div class="carousel-item">
+        <img src="gambar/3.jpg" class="d-block w-100" alt="Slide 3">
+        <div class="carousel-caption">
+          <h3>SMK N 3 Sekayun Mudik</h3>
+          <p>Tempat Belajar anak-anak desa sekayun mudik</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="gambar/4.jpg" class="d-block w-100" alt="Slide 3">
+        <div class="carousel-caption">
+          <h3>Desa Sekayun Muddik</h3>
+          <p>Gapura Selamat Datang Desa Sekayun Mudik</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<br><br>
+<hr>
+<!-- Sejarah Section -->
+<section class="jumbotron jumbotron-fluid bg-light text-center">
+  <div class="container">
+    <!-- This h2 element will have the color and font-weight changed -->
+    <h2 class="display-4" id="sejarah_desa">SEJARAH DESA</h2>
+    <p class="lead">Desa Sekayun Mudik, Kecamatan Bang Haji, Bengkulu Tengah</p>
+    <br>
+    <p class="lead">
+      Desa Sekayun Mudik adalah sebuah desa yang terletak di wilayah Sekayun Mudik, Kecamatan Bang Haji, Kabupaten Bengkulu Tengah, Provinsi Bengkulu. Desa ini didirikan pada tahun 1930 dan hingga kini telah menjadi salah satu desa yang berkembang pesat di wilayah tersebut.
+    </p>
+    <p class="lead">
+      Desa Sekayun Mudik memiliki kode wilayah desa 12.34.56.789, yang digunakan untuk mengidentifikasi wilayah administratif desa ini dalam berbagai keperluan pemerintahan dan statistik dengan tingkat perkembangan desa swadaya dan luas wilayah sekitar 2500.
+    </p>
+    
+    <br>
+    <br>
+    <div class="card-deck">
+      <div class="card">
+        <div class="card-header ">
+          Batas Wilayah
+        </div>
+    
+        <div class="card-body">
+          <p>Sebelah Utara    : Air Kotok</p>
+          <p>Sebelah Selatan  : Sungkai Berayun</p>
+          <p>Sebelah Barat    : Lubuk Langkap</p>
+          <p>Sebelah Timur    : Sekayun</p>
+        </div>
+        <div class="card-footer">
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          Orbitasi (Jarak dari Pusat Pemerintahan)
+        </div>
+        
+        <div class="card-body">
+          <p>Jarak dari pemerintahan kecamatan   : +-1,5</p>
+          <p>Jarak dari pemerintahan kota  : +- 50</p>
+          <p>Jarak dari ibukota kabupaten    : +- 50</p>
+          <p>jarak dari ibukota provinsi    : +- 40</p>
+        </div>
+        <div class="card-footer">
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          Jumlah Penduduk
+        </div>
+ 
+        <div class="card-body">
+          <p>Laki laki : 523</p>
+          <p>Perempuan : 531</p>
+        </div>
+        <div class="card-footer">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr>
+<br>
+<section class="organizational-chart text-center">
+  <div class="container">
+    <h2 class="display-4 mb-4">KEPALA DESA</h2>
+    
+    <div class="row justify-content-center mb-4 mt-2">
+      <div class="col-md-4">
+        <!-- Ketua Card -->
+        <div class="card text-center">
+          <div class="card-header" id="aaa">
+            Kepala Desa
+          </div>
+          <div class="card-body" >
+            <img src="gambar/user.png" class="img-fluid rounded-circle mb-4" alt="Ketua">
+            <h5 class="card-title">Elman Saputra</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+
+<hr>
+<br>
+<!-- Organizational Chart Section -->
+<section class="organizational-chart text-center">
+  <div class="container">
+    <h2 class="display-4 mb-4">STRUKTUR DESA</h2>
+    <h4 class="mb-4 mt-5" id="struktur_bpd">Struktur BPD Desa Sekayun Mudik</h4>
+    
+    <div class="row justify-content-center mb-4 mt-2">
+      <div class="col-md-4">
+        <!-- Ketua Card -->
+        <div class="card text-center">
+          <div class="card-header" id="a">
+            Ketua
+          </div>
+          <div class="card-body" >
+            <img src="gambar/user.png" class="img-fluid rounded-circle mb-4" alt="Ketua">
+            <h5 class="card-title">Dewita Hasmi S.pd</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row justify-content-center  mb-4">
+      <div class="col-md-4">
+        <!-- Wakil Ketua Card -->
+        <div class="card text-center">
+          <div class="card-header" id="a">
+            Wakil Ketua
+          </div>
+          <div class="card-body">
+            <img src="gambar/user.png" class="img-fluid rounded-circle mb-4" alt="Wakil Ketua">
+            <h5 class="card-title">Awandi</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row justify-content-center  mb-4">
+      <div class="col-md-4">
+        <!-- Sekretaris Card -->
+        <div class="card text-center">
+          <div class="card-header" id="a">
+            Sekretaris
+          </div>
+          <div class="card-body">
+            <img src="gambar/user.png" class="img-fluid rounded-circle mb-4" alt="Sekretaris">
+            <h5 class="card-title">Waherman Sapidi</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row justify-content-center mb-4">
+      <div class="col-md-4">
+        <!-- Wakil Ketua Card -->
+        <div class="card text-center">
+          <div class="card-header" id="a">
+            Anggota
+          </div>
+          <div class="card-body">
+            <img src="gambar/user.png" class="img-fluid rounded-circle mb-4" alt="Wakil Ketua">
+            <h5 class="card-title">Eli Mulyana</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row justify-content-center mb-4">
+      <div class="col-md-4">
+        <!-- Wakil Ketua Card -->
+        <div class="card text-center">
+          <div class="card-header" id="a">
+            Anggota
+          </div>
+          <div class="card-body">
+            <img src="gambar/user.png" class="img-fluid rounded-circle mb-4" alt="Wakil Ketua">
+            <h5 class="card-title">Rike Melyani</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <hr>
+    <h3 class=" mb-4 mt-5" id="struktur_desa" >Struktur Perangkat Desa Sekayun Mudik</h3>
+    <img src="gambar/perangkatdesa.png" alt="" class="img-fluid">
+  </div>
+</section>
+
+<hr>
+<!-- Artikel 1: Perkebunan Kopi Desa -->
+<section class="jumbotron jumbotron-fluid bg-light text-center">
+  <div class="container">
+    <h2 class="display-4 mb-4" id="potensi_desa">POTENSI DESA</h2>
+    <p class="lead">
+      Selamat datang di Desa Sekayun Mudik, desa ini menjadi destinasi unggulan bagi para pecinta kopi dan menawarkan potensi ekonomi yang luar biasa. Berikut ini adalah gambaran singkat tentang potensi desa Sekayun Mudik yang mengangkat kopi sebagai harta berharga dan simbol kebanggaan.
+    </p>
+    <br>
+    <div class="card">
+      <img src="gambar/11.jpg" class="card-img-top img-thumbnail" alt="Perkebunan Kopi" width="1200px" height="800px">
+      <div class="card-body">
+        <h4 class="card-subtitle mb-3" id="POTENSI">Perkebunan Kopi</h4>
+        <p class="card-text lead">Perkebunan kopi Desa Sekayun Mudik adalah salah satu aset desa yang menghasilkan kopi berkualitas tinggi. Desa ini diberkahi dengan kekayaan sumber daya alam yang memadai, seperti tanah subur, iklim yang sejuk dengan curah hujan yang cukup, serta lingkungan asri. Petani di desa ini dengan penuh cinta dan dedikasi mengelola perkebunan kopi mereka, menghasilkan biji kopi dengan rasa dan aroma istimewa. Perkebunan kopi Desa Sekayun Mudik telah menjadi sumber pendapatan bagi masyarakat setempat.</p>
+        <button type="button" class="btn btn-info float-right" data-toggle="modal" data-target=".bd-example-modal-lg-e">Detail</button>
+
+        <div class="container mt-5 ml-5 mr-5">
+          <div class="modal fade bd-example-modal-lg-e" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-lg">
+                  <div class="modal-content ml-5 mr-5">
+                      <h4 class="card-title mt-3" id="POTENSI">Keuntungan adanya perkebunan kopi</h4>
+                      <p class="text-justify ml-5 mr-5">
+                        Adanya perkebunan kopi memberikan berbagai keuntungan bagi berbagai pihak, baik dari segi ekonomi, sosial, maupun lingkungan. Berikut adalah beberapa keuntungan dengan adanya perkebunan kopi
+                      
+                        <ol class="float-left text-justify ml-5 mr-5">
+                          <li><strong>Peningkatan Pendapatan Petani:</strong> Perkebunan kopi menjadi sumber utama pendapatan bagi petani kopi. Dengan hasil penjualan biji kopi yang berkualitas, pendapatan petani dapat meningkat, membantu meningkatkan kesejahteraan dan taraf hidup mereka.</li>
+                          <br>
+                          <li><strong>Penciptaan Lapangan Kerja:</strong> Proses perkebunan kopi dan pengolahan kopi menciptakan lapangan kerja bagi masyarakat sekitar, mulai dari petani, pekerja pengolahan kopi, hingga pekerja di sektor distribusi dan pemasaran.</li>
+                          <br>
+                          <li><strong>Kontribusi pada Perekonomian Lokal:</strong> Perkebunan kopi memberikan kontribusi signifikan pada perekonomian lokal, baik dalam hal pendapatan, investasi, maupun pajak yang dibayarkan.</li>
+                          <br>
+                          <li><strong>Pengembangan Infrastruktur:</strong> Pertumbuhan sektor perkebunan kopi dapat mendorong pengembangan infrastruktur di daerah sekitar, seperti jalan, sarana transportasi, dan akses ke fasilitas umum.</li>
+                          <br>
+                          <li><strong>Ekspor dan Pendapatan Devisa:</strong> Biji kopi adalah salah satu komoditas ekspor utama di banyak negara. Keberadaan perkebunan kopi dapat meningkatkan pendapatan devisa negara melalui ekspor biji kopi.</li>
+                          <br>
+                          <li><strong>Pengangkatan Ekonomi Masyarakat:</strong> Perkebunan kopi memberikan dampak ekonomi yang luas pada masyarakat lokal, membantu mengangkat taraf hidup dan mengurangi kemiskinan.</li>
+                          <br>
+                          <li><strong>Pengembangan Pariwisata:</strong> Perkebunan kopi yang dikelola dengan baik juga memiliki potensi sebagai destinasi wisata. Wisatawan dapat belajar tentang proses penanaman dan pengolahan kopi, serta menikmati keindahan perkebunan.</li>
+                          <br>
+                          <li><strong>Pelestarian Lingkungan:</strong> Perkebunan kopi yang berkelanjutan dan bertanggung jawab terhadap lingkungan membantu dalam pelestarian alam, konservasi sumber daya alam, dan pengurangan dampak negatif terhadap lingkungan.</li>
+                          <br>
+                        </ol>
+                      </p>
+                  </div>
+              </div>
+          </div>
+      </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Artikel 2: Pengolahan Kopi Desa -->
+<section class="jumbotron jumbotron-fluid bg-light text-center">
+  <div class="container">
+    <div class="card">
+      <img src="gambar/22.jpg" class="card-img-top img-thumbnail" alt="Pengolahan Kopi">
+      <div class="card-body">
+        <h4 class="card-title mt-3" id="POTENSI">Pengolahan Kopi Desa</h4>
+        <p class="card-text lead">Pengolahan kopi Desa Sekayun Mudik merupakan tahapan penting dalam menghasilkan produk kopi unggulan. Proses pengeringan, pengupasan, pemanggangan, dan pengemasan biji kopi dilakukan dengan hati-hati dan memenuhi standar kualitas internasional. Hasilnya adalah kopi dengan cita rasa yang unik dan terjaga, menjadi favorit di kalangan pecinta kopi. Pengolahan kopi ini juga memberikan dampak positif pada ekonomi dan kesejahteraan masyarakat desa.</p>
+        <button type="button" class="btn btn-info float-right" data-toggle="modal" data-target=".bd-example-modal-lg-t">Detail</button>
+        
+        <div class="container mt-5 ml-5 mr-5">
+          <div class="modal fade bd-example-modal-lg-t" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-lg">
+                  <div class="modal-content ml-5 mr-5">
+                      <h4 class="card-title mt-3" id="POTENSI">Keuntungan adanya pengolahan kopi</h4>
+                      <p class="text-justify ml-5 mr-5">
+                        Desa Sekayun Mudik memiliki potensi luar biasa dalam hal perkebunan dan pengolahan kopi. Pengolahan kopi di desa ini membawa banyak keuntungan bagi masyarakat dan perekonomian lokal. Berikut adalah beberapa keuntungan adanya pengolahan kopi di Desa Sekayun Mudik:
+                      </p>
+                      <ol class="float-left text-justify ml-2 mr-5">
+                        <li class="list-group-item">
+                          <strong>1. Nilai Tambah Produk</strong>
+                          <br>
+                          Dengan adanya pengolahan kopi di desa, biji kopi mentah dari perkebunan dapat diubah menjadi produk jadi seperti biji
+                          kopi sangrai, bubuk kopi, atau kopi siap saji. Proses pengolahan ini memberikan nilai tambah pada produk kopi dan
+                          meningkatkan harga jualnya. Hal ini berarti pendapatan yang lebih tinggi bagi petani dan pengusaha kopi di desa.
+                        </li>
+                        <li class="list-group-item">
+                          <strong>2. Penciptaan Lapangan Kerja</strong>
+                          <br>
+                          Pengolahan kopi menciptakan lapangan kerja bagi masyarakat desa, tidak hanya bagi petani tetapi juga bagi pekerja di
+                          pabrik pengolahan kopi. Proses pengolahan memerlukan tenaga kerja yang terampil dalam hal pengeringan, pemanggangan,
+                          dan pengemasan biji kopi. Dengan begitu, pengolahan kopi membantu mengurangi tingkat pengangguran dan meningkatkan
+                          kesejahteraan masyarakat.
+                        </li>
+                        <li class="list-group-item">
+                          <strong>3. Kontribusi pada Perekonomian Lokal</strong>
+                          <br>
+                          Pengolahan kopi di Desa Sekayun Mudik memberikan kontribusi yang signifikan pada perekonomian lokal. Dengan produk kopi
+                          yang lebih bernilai tinggi, pendapatan dari penjualan kopi meningkat. Selain itu, pabrik pengolahan kopi juga membayar
+                          pajak dan membeli barang dan jasa dari masyarakat sekitar, yang berarti dorongan ekonomi tambahan untuk desa.
+                        </li>
+                        <li class="list-group-item">
+                          <strong>4. Peningkatan Nilai Produk Kopi</strong>
+                          <br>
+                          Melalui proses pengolahan, kualitas dan cita rasa kopi dapat ditingkatkan. Pengupasan, pemanggangan, dan pengemasan yang
+                          tepat dapat menghasilkan kopi dengan rasa yang unik dan istimewa. Dengan demikian, produk kopi dari Desa Sekayun Mudik
+                          menjadi lebih menarik bagi pasar dan menggoda para pecinta kopi.
+                        </li>
+                        <li class="list-group-item">
+                          <strong>5. Diversifikasi Produk</strong>
+                          <br>
+                          Pengolahan kopi juga membuka peluang untuk diversifikasi produk. Selain kopi bubuk, desa ini dapat memproduksi kopi
+                          kemasan, kopi instan, atau bahkan kopi dengan berbagai varian rasa. Diversifikasi produk meningkatkan daya saing dan
+                          memperluas pangsa pasar, membawa manfaat tambahan bagi perekonomian desa.
+                        </li>
+                        <li class="list-group-item">
+                          <strong>6. Peningkatan Ekspor dan Pendapatan Devisa</strong>
+                          <br>
+                          Dengan produk kopi berkualitas yang dihasilkan dari pengolahan, Desa Sekayun Mudik dapat meningkatkan ekspor biji kopi.
+                          Keberadaan perkebunan dan pengolahan kopi ini dapat memberikan kontribusi signifikan pada pendapatan devisa negara,
+                          memperkuat ekonomi nasional.
+                        </li>
+                        <li class="list-group-item">
+                          <strong>7. Meningkatkan Kualitas Hidup Petani</strong>
+                          <br>
+                          Pengolahan kopi membawa dampak positif pada kualitas hidup petani. Dengan nilai tambah produk, pendapatan petani
+                          meningkat, memberikan mereka kesempatan untuk meningkatkan taraf hidup, mengakses layanan pendidikan dan kesehatan yang
+                          lebih baik, serta investasi pada infrastruktur rumah dan kehidupan sehari-hari.
+                        </li>
+                        <li class="list-group-item">
+                          <strong>8. Pengembangan Wisata Kuliner</strong>
+                          <br>
+                          Dengan kehadiran pengolahan kopi, Desa Sekayun Mudik dapat menjadi destinasi wisata kuliner yang menarik. Pengunjung dapat
+                          melihat proses pengolahan kopi secara langsung dan menikmati sajian kopi yang unik. Wisata kuliner ini akan menarik lebih
+                          banyak wisatawan dan mengangkat citra desa sebagai pusat kopi yang menarik.
+                        </li>
+                      </ol>
+                  </div>
+              </div>
+          </div>
+      </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Artikel 3: Pentingnya Merek Kopi Desa -->
+<section class="jumbotron jumbotron-fluid bg-light text-center">
+  <div class="container">
+    <div class="card">
+      <img src="gambar/33.jpg" class="card-img-top img-thumbnail" alt="Pentingnya Merek Kopi">
+      <div class="card-body">
+        <h4 class="card-title mt-3" id="POTENSI">Pentingnya Brand/Merek Kopi Desa</h4>
+        <p class="card-text lead">Merek dan brand yang kuat menjadi kunci kesuksesan dalam mempromosikan produk kopi Desa Sekayun Mudik. Di tengah persaingan global, merek yang kuat dan pengenalan merek yang efektif akan membawa usaha kopi ke level yang lebih tinggi. Merek yang kuat menciptakan identitas yang khas dan mudah diingat, membuat Desa Sekayun Mudik menjadi tujuan para pecinta kopi dari seluruh penjuru dunia. Dengan merek yang kuat, kopi Desa Sekayun Mudik dapat menonjolkan keunikan dan kualitasnya, meningkatkan pendapatan, dan mengangkat citra merek di mata para konsumen.</p>
+        <button type="button" class="btn btn-info float-right" data-toggle="modal" data-target=".bd-example-modal-lg">Detail</button>
+
+        <div class="container mt-5 ml-5 mr-5">
+          <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-lg">
+                  <div class="modal-content ml-5 mr-5">
+                      <h4 class="card-title mt-3" id="POTENSI">Pentingnya Brand/Merek Kopi Desa</h4>
+                      <p class="text-justify ml-5 mr-5">
+                        Desa Sekayun Mudik memiliki potensi kopi yang luar biasa, namun sebagian besar produk kopi dari desa ini saat ini masih dijual secara konvensional, hanya dari mulut ke mulut. Meskipun rasanya telah diakui oleh banyak pecinta kopi, keberadaan merek dan brand menjadi hal yang penting untuk mengangkat nilai produk kopi dari desa ini dan meningkatkan daya saing di pasar. Berikut adalah beberapa alasan mengapa pentingnya brand dan merek dalam bisnis kopi Desa Sekayun Mudik:
+                      </p>
+                      <ol class="float-left text-justify ml-2 mr-5">
+                        <li class="list-group-item">
+                          <strong>1. Menciptakan Identitas dan Citra</strong>
+                          <br>
+                          Brand dan merek memberikan identitas yang jelas dan citra yang kuat bagi produk kopi dari Desa Sekayun Mudik.
+                          Dengan merek yang menarik dan mudah diingat, produk kopi menjadi lebih dikenal dan diingat oleh konsumen.
+                          Identitas yang khas ini juga membantu membedakan produk dari desa ini dari produk kopi lainnya di pasar.
+                        </li>
+                        <li class="list-group-item">
+                          <strong>2. Kepercayaan Konsumen</strong>
+                          <br>
+                          Merek yang terpercaya menciptakan kepercayaan di antara konsumen. Ketika produk kopi dari Desa Sekayun Mudik
+                          memiliki merek yang telah dikenal dan diakui, konsumen akan merasa lebih percaya untuk mencoba produk tersebut.
+                          Kepercayaan konsumen merupakan faktor penting dalam membangun loyalitas pelanggan dan mendapatkan dukungan dari pasar.
+                        </li>
+                        <li class="list-group-item">
+                          <strong>3. Meningkatkan Nilai Produk</strong>
+                          <br>
+                          Dengan adanya merek dan brand, produk kopi dari Desa Sekayun Mudik akan memiliki nilai lebih tinggi di mata konsumen.
+                          Merek yang dikenal cenderung memiliki harga jual yang lebih tinggi karena dianggap memiliki kualitas dan rasa yang
+                          unggul. Dengan demikian, merek dan brand akan membantu meningkatkan nilai produk kopi dan mendapatkan pengakuan yang
+                          lebih luas.
+                        </li>
+                        <li class="list-group-item">
+                          <strong>4. Memperluas Pasar dan Ekspansi</strong>
+                          <br>
+                          Merek yang dikenal dan populer akan membuka peluang untuk memperluas pasar dan melakukan ekspansi bisnis. Dengan merek
+                          yang kuat, produk kopi dari Desa Sekayun Mudik dapat mencapai lebih banyak konsumen, termasuk pasar luar negeri.
+                          Ekspansi ini akan memberikan dampak positif pada peningkatan volume penjualan dan pertumbuhan bisnis.
+                        </li>
+                        <li class="list-group-item">
+                          <strong>5. Marketing dan Promosi yang Lebih Efektif</strong>
+                          <br>
+                          Dengan merek yang sudah dikenal, upaya pemasaran dan promosi menjadi lebih efektif. Merek yang kuat akan menarik
+                          perhatian konsumen dan menciptakan minat untuk mencoba produk. Selain itu, pemasaran dapat lebih fokus pada cerita dan
+                          nilai-nilai di balik merek, menarik perhatian konsumen dan membawa dampak positif pada penjualan.
+                        </li>
+                        <li class="list-group-item">
+                          <strong>6. Perlindungan Hukum</strong>
+                          <br>
+                          Merek yang terdaftar secara resmi akan memberikan perlindungan hukum terhadap nama dan identitas produk. Dengan merek
+                          yang dilindungi hukum, produk kopi dari Desa Sekayun Mudik akan terhindar dari plagiarisme atau penyalahgunaan merek oleh
+                          pihak lain. Perlindungan ini penting untuk menjaga keaslian dan reputasi produk.
+                        </li>
+                        <li class="list-group-item">
+                          <strong>7. Memperkuat Identitas Lokal</strong>
+                          <br>
+                          Merek yang dibangun dari Desa Sekayun Mudik akan membawa dampak positif pada identitas lokal. Produk kopi dari desa ini
+                          akan menjadi lebih dikenal dan menjadi kebanggaan masyarakat. Merek yang berhasil dapat membantu mengangkat citra Desa
+                          Sekayun Mudik sebagai daerah penghasil kopi berkualitas.
+                        </li>
+                      </ol>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr>
+<br>
+<section class="organizational-chart text-center">
+  <div class="container">
+    <h2 class="display-4 mb-4" id="peta_desa">PETA DESA</h2>
+    <div class="mb-5">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15928.034915692893!2d102.3337297417756!3d-3.5854699922182727!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e314c07a90772d7%3A0xd65e8ae8d76e18d6!2sSekayun%20Mudik%2C%20Kec.%20Bang%20H.%2C%20Kabupaten%20Bengkulu%20Tengah%2C%20Bengkulu%2C%20Indonesia!5e0!3m2!1sid!2ssg!4v1690335360051!5m2!1sid!2ssg" width="1000" height="550" class="mb-5" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    </div>
+</section>
+
+   <!-- Footer -->
+   <footer class="bg-dark text-white mt-5 text-center">
+    <div class="container py-4">
+        <div class="row">
+            <div class="col-md-4">
+                <h5>Tentang Kami</h5>
+                <p>Desa Sekayun Mudik adalah sebuah desa yang terletak di wilayah Sekayun Mudik, Kecamatan Bang Haji, Kabupaten Bengkulu Tengah, Provinsi Bengkulu. </p>
+            </div>
+            <div class="col-md-4">
+                <h5>Hubungi Kami</h5>
+                <p>Email: sekayunmudik@example.com</p>
+                <p>Telepon: - </p>
+            </div>
+            <div class="col-md-4">
+                <h5>Sosial Media</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Instagram</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="text-center py-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        &copy; 2023 KKN Kelompok 64 Sekayun Mudik | Muhammad Wahfi Udin.
+    </div>
+</footer>
+
+
+  <!-- Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+</body>
+</html>
